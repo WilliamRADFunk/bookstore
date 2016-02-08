@@ -17,5 +17,5 @@ This program uses date formatting, various classes, and instatiated objects + kn
 
 Screenshots were uploaded to demonstrate the program in it's working form.<br/><br/>
 
-![Alt text](screenshot_01.png?raw=true "")
+![Settings Window](https://raw.github.com/WilliamRADFunk/bookstore/master/screenshot_01.png)
 

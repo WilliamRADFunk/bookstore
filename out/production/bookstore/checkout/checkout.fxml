@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Name: William Funk 0969985 * Course: CNT 4714 – Spring 2016 * Assignment title: Program 1 – Event-driven Programming *  Date: Sunday January 24, 2016-->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="center" gridLinesVisible="true" hgap="10" prefHeight="500.0" prefWidth="800.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkout.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <SplitPane dividerPositions="0.7068273092369478" orientation="VERTICAL" prefHeight="500.0" prefWidth="800.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="378.0" prefWidth="711.0" style="-fx-background-color: #014147;">
+             <children>
+                 <Label fx:id="label_totalItems" layoutX="38.0" layoutY="35.0" prefHeight="17.0" prefWidth="234.0" text="Enter number of items in this order: " textFill="WHITE" />
+                 <TextField fx:id="text_totalItems" layoutX="283.0" layoutY="31.0" prefHeight="25.0" prefWidth="450.0" />
+                 <Label fx:id="label_bookID" layoutX="38.0" layoutY="93.0" prefHeight="17.0" prefWidth="234.0" text="Enter Book ID for Item #1: " textFill="WHITE" />
+                 <TextField fx:id="text_bookID" layoutX="283.0" layoutY="89.0" prefHeight="25.0" prefWidth="450.0" />
+                 <Label fx:id="label_quantity" layoutX="38.0" layoutY="148.0" prefHeight="17.0" prefWidth="234.0" text="Enter quantity for Item #1: " textFill="WHITE" />
+                 <TextField fx:id="text_quantity" layoutX="283.0" layoutY="144.0" prefHeight="25.0" prefWidth="450.0" />
+                 <Label fx:id="label_info" layoutX="38.0" layoutY="205.0" prefHeight="17.0" prefWidth="234.0" text="Info for Item #1: " textFill="WHITE" />
+                 <TextField fx:id="text_info" layoutX="283.0" layoutY="201.0" prefHeight="25.0" prefWidth="450.0" />
+                 <Label fx:id="label_subtotal" layoutX="38.0" layoutY="263.0" prefHeight="17.0" prefWidth="234.0" text="Order subtotal for 0 Item(s): " textFill="WHITE" />
+                 <TextField fx:id="text_subtotal" layoutX="283.0" layoutY="259.0" prefHeight="25.0" prefWidth="450.0" />
+             </children>
+          </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="124.0" prefWidth="521.0" style="-fx-background-color: #05B8CC;">
+               <children>
+                  <Button fx:id="btn_process" layoutX="60.0" layoutY="33.0" mnemonicParsing="false" onAction="#processItem" prefHeight="25.0" prefWidth="150.0" text="Process Item #1" />
+                  <Button fx:id="btn_confirm" layoutX="309.0" layoutY="33.0" mnemonicParsing="false" onAction="#confirmItem" prefHeight="25.0" prefWidth="150.0" text="Confirm Item #1" />
+                  <Button fx:id="btn_view" layoutX="563.0" layoutY="33.0" mnemonicParsing="false" onAction="#viewOrder" prefHeight="25.0" prefWidth="150.0" text="View Order" />
+                  <Button fx:id="btn_finish" layoutX="60.0" layoutY="83.0" mnemonicParsing="false" onAction="#finishOrder" prefHeight="25.0" prefWidth="150.0" text="Finish Order" />
+                  <Button fx:id="btn_new" layoutX="309.0" layoutY="83.0" mnemonicParsing="false" onAction="#newOrder" prefHeight="25.0" prefWidth="150.0" text="New Order" />
+                  <Button fx:id="btn_exit" layoutX="563.0" layoutY="83.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="150.0" text="Exit" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</GridPane>

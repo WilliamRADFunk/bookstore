@@ -1,0 +1,12 @@
+11111, "Top Secret Twenty One - Janet Evanovich", 8.99
+22222, "W Is For Wasted - Sue Grafton", 9.95
+33333, "Gray Mountain - John Grisham", 14.95
+44444, "Revival - Stephen King", 12.95
+55555, "Everyday Italian - Giada de Laurentiis", 18.99
+66666, "Refusal - Felix Francis", 7.99
+77777, "Dust - Patricia Cornwell", 12.99
+88888, "Terminal City - Linda Fairstein", 10.95
+99999, "Rogue Lawyer - John Grisham", 15.95
+11112, "The Guilty - David Baldacci", 14.95
+11234, "Tricky Twenty-Two - Janet Evanovich", 12.95
+23456, "14th Deadly Sin - James Patterson", 14.95
